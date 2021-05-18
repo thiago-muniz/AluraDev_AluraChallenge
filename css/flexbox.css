@@ -1,0 +1,14 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .cabecalhoPrincipal-avatar{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoPrincipal-nav-link{
+    margin: 10px;
+}
