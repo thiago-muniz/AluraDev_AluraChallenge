@@ -1,12 +1,44 @@
 body{
     background-color: #051D3B;
+    font-family: 'Inter', sans-serif;
+}
+
+.icone{
+    height: 48px;
+    width: 48px;
+    background: #5081FB29;
+    border-radius: 16px;
 }
 
 .cabecalhoPrincipal{
-    margin: 0 32px 0 32px;
+    margin: 32px 32px 0 32px;
 }
 
 .cabecalhoPrincipal-BusqueAlgo-caixa{
+    background: #FFFFFF29;
+    border-radius: 8px;
+    border-style: none;
     width: 752px;
-    height: 56;
+    height: 56px;
+    padding-left: 14px;
+    font-size: 1em;
+    
+}
+
+.cabecalhoPrincipal-nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.menu-navegacao .menu-navegacao-item{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.caixaDeCodigo-corDefundo{
+    background: orangered;
+    height: 100px;
+    width: 752px;
 }

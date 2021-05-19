@@ -12,3 +12,14 @@
 .cabecalhoPrincipal-nav-link{
     margin: 10px;
 }
+
+.imagens-link, .menu-navegacao-item{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.container-caixaDeCodigo{
+    display: flex;
+    align-items: center;
+}

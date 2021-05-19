@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraDev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/css-geral.css">
     <link rel="stylesheet" href="./css/flexbox.css">
+
 
 
 </head>
@@ -18,7 +20,7 @@
             
             <div class="cabecalhoPrincipal-BusqueAlgo">
                 <form action="#">
-                    <input class="cabecalhoPrincipal-BusqueAlg0-caixa" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
+                    <input class="cabecalhoPrincipal-BusqueAlgo-caixa" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
                 </form>
             </div>
 
@@ -29,21 +31,46 @@
         </div>
 
     </header>
+
+    <ul class="menu-navegacao">
+        <li class="menu-navegacao-item">
+            <div class="imagens-link">
+                <div class="icone"></div>
+                <img src="./imagens/iconeEditorCodigo/Vector.svg">
+            </div>
+            <a href="#">Editor de código</a></li>
+        <li class="menu-navegacao-item">
+            <div class="imagens-link">
+                <div class="icone"></div>
+                <img src="./imagens/iconeComunidade/Vector.svg">
+            </div>
+            <a href="#">comunidade</a></li>
+    </ul>
     
-    menu
-        botao editorde código
-        botao comunidade
-    caixadecodigo
-        fundoColorido
-        janelaDeCódigo
-        botaoVisualizarComHighlight
-    formularioSeuProjeto
-        nomeProjeto
-        descriçãoProjeto
-    formulárioPersonalização
-        dropdownLinguagem
-        seletorDeCorDeFundo
-        botãoSalvarProjeto
+    <div class="container-caixaDeCodigo">
+        <div class="caixaDeCodigo-corDefundo"></div>
+        <form action="#">
+            <textarea class="caixaDeCodigo"> </textarea>
+        </form>
+        <button type="submit">Vizualizar com highlight</button>
+    </div>
+
+    <div class="container-seuProjeto">
+        <form action="#">
+            <p>Seu projeto
+                <input type="text" name="Nome do projeto" placeholder="Nome do seu Projeto">
+                <input type="text" name="" placeholder="Descrição do seu Projeto"></p>
+            <p>Personalização
+                <select name="" id="">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                </select>
+            </p>
+        </form>
+        <div class="seletorDeCor"></div>
+    </div>
+    <input type="submit" value="Salvar projeto">
 
 <body>
     
