@@ -1,0 +1,12 @@
+/* grid do conteudo*/
+
+.miolo-conteudo{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: calc(100vh - 88px);
+}
+
+.container-caixaDeCodigo{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

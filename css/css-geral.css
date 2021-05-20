@@ -1,20 +1,33 @@
-body{
+.principal{
     background-color: #051D3B;
+    display: grid;
     font-family: 'Inter', sans-serif;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 88px auto auto;
 }
 
-.icone{
-    height: 48px;
-    width: 48px;
-    background: #5081FB29;
-    border-radius: 16px;
+
+.cabecalho{
+    grid-area: cabecalho;
+}
+.conteudo{
+    background: salmon;
+    grid-area: conteudo;
+}
+.rodape{
+    background: rebeccapurple;
+    grid-area: rodape;
 }
 
-.cabecalhoPrincipal{
-    margin: 32px 32px 0 32px;
+p{
+    color: #FFFFFF;
 }
 
-.cabecalhoPrincipal-BusqueAlgo-caixa{
+.cabecalho-BusqueAlgo-caixa{
     background: #FFFFFF29;
     border-radius: 8px;
     border-style: none;
@@ -25,7 +38,7 @@ body{
     
 }
 
-.cabecalhoPrincipal-nav-link{
+.cabecalho-nav-link{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1em;

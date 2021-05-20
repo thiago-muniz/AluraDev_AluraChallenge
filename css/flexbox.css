@@ -1,25 +1,29 @@
-.cabecalhoPrincipal .container {
+.cabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container .cabecalhoPrincipal-avatar{
+.cabecalho-avatar{
     display: flex;
     align-items: center;
 }
 
-.cabecalhoPrincipal-nav-link{
+.cabecalho-nav-link{
     margin: 10px;
 }
 
+/* menu */
 .imagens-link, .menu-navegacao-item{
     display: flex;
     justify-content:start;
     align-items: center;
 }
 
+/* caixa de código */
 .container-caixaDeCodigo{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 }
+
