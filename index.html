@@ -32,48 +32,39 @@
                     <a class="cabecalho-nav-link" href="#">Harry</a>
                 </div>   
         </header>
-        <main class="conteudo">
-            <section class="miolo-conteudo">
-                <ul class="menu-navegacao">
+        <main class="flex-container_conteudo">
+                <ul class="flex-item-menu-navegacao">
                     <li class="menu-navegacao-item">
-                        <div class="imagens-link">
-                            <div class="icone"></div>
-                            <img src="./imagens/iconeEditorCodigo/Vector.svg">
-                        </div>
+                        <img class="menu-navegacao-item-icone" src="./imagens/icones/iconeeditordecodi.svg" alt="">
                         <a href="#">Editor de código</a></li>
                     <li class="menu-navegacao-item">
-                        <div class="imagens-link">
-                            <div class="icone"></div>
-                            <img src="./imagens/iconeComunidade/Vector.svg">
-                        </div>
-                        <a href="#">comunidade</a></li>
+                        <img class="menu-navegacao-item-icone" src="./imagens/icones/iconecomunidade.svg" alt="">
+                        <a href="#">Comunidade</a></li>
                 </ul>
                 
-                <div class="container-caixaDeCodigo">
-                    <div class="caixaDeCodigo-corDefundo"></div>
-                    <form action="#">
+                <div class="flex-item-areaDoCodigo">
+                    <form class="caixaDeCodigo" action="#">
                         <textarea class="caixaDeCodigo"> </textarea>
                     </form>
-                    <button type="submit">Vizualizar com highlight</button>
+                    <button class="botaoVisualizar" type="submit">Vizualizar com highlight</button>
                 </div>
 
-                <div class="container-seuProjeto">
-                    <form action="#">
-                        <p>Seu projeto
-                            <input type="text" name="Nome do projeto" placeholder="Nome do seu Projeto">
-                            <input type="text" name="" placeholder="Descrição do seu Projeto"></p>
-                        <p>Personalização
-                            <select name="" id="">
-                                <option value="JavaScript">JavaScript</option>
-                                <option value="Python">Python</option>
-                                <option value="C#">C#</option>
-                            </select>
-                        </p>
+                <div class="flex-item-seuProjeto">
+                    <form class="flex-container_formulario" action="#">
+                        <p class="flex-container_formulario_item titulo">Seu projeto</p>
+                        <input class="nomeDoProjeto" type="text" name="Nome do projeto" placeholder="Nome do seu Projeto">
+                        <input class="descricaoDoProjeto" type="text" name="" placeholder="Descrição do seu Projeto">
+                        <p class="flex-container_formulario_item titulo">Personalização</p>
+                        <select name="" class="seletorLinguagem">
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="C#">C#</option>
+                        </select>
+                        
                     </form>
                     <div class="seletorDeCor"></div>
-                    <input type="submit" value="Salvar projeto">
-                </div>                
-            </section>    
+                    <input class="botaoSalvar" type="submit" value="Salvar projeto">
+                </div>                   
         </main>
         </section>
         <footer class="rodape">

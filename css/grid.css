@@ -1,12 +1,37 @@
+.cabecalho{
+    display: grid;
+    grid-template-columns: calc(100vw-376px) 752px calc(100vw-376px);
+    height: 88px;
+}
+
+.cabecalho-logo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.cabecalho-BusqueAlgo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.cabecalho-avatar{
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
 /* grid do conteudo*/
 
-.miolo-conteudo{
+.flex-container_conteudo{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     height: calc(100vh - 88px);
 }
 
-.container-caixaDeCodigo{
+.areaDoCodigo{
     grid-column-start: 2;
     grid-column-end: 4;
+}
+
+.flex-item-seuProjeto{
+    grid-column-start: 4;
 }

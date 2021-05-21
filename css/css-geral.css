@@ -8,14 +8,22 @@
     "rodape";
     grid-template-columns: auto;
     grid-template-rows: 88px auto auto;
+
 }
 
 
 .cabecalho{
     grid-area: cabecalho;
 }
+
+.cabecalho-logo{
+    padding-left: 32px;
+}
+.cabecalho-avatar{
+    padding-right: 32px;
+}
+
 .conteudo{
-    background: salmon;
     grid-area: conteudo;
 }
 .rodape{
@@ -44,14 +52,124 @@ p{
     font-size: 1em;
 }
 
-.menu-navegacao .menu-navegacao-item{
+/* conteudo */
+
+.menu-navegacao-item a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1em;
 }
 
-.caixaDeCodigo-corDefundo{
-    background: orangered;
-    height: 100px;
-    width: 752px;
+.menu-navegacao-item-icone{
+    width: 48px;
+    height: 48px;
+    padding: 10px;
 }
+
+.flex-item-areaDoCodigo{
+    background-color: aqua;
+    border-radius: 8px;
+    width: 400px;
+    height: 366px;
+}
+.caixaDeCodigo{
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 300px;
+    height: 302px;
+    margin: 32px;
+}
+
+.botaoVisualizar{
+    background: #5081FB14;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    width: 752px;
+    height: 56px;
+    padding-left: 14px;
+    font-size: 1em;
+    margin-top: 16px;
+}
+
+/* seu projeto */
+.flex-item-seuProjeto{
+    background-color: rgb(209, 209, 206);
+    margin-right: 32px;
+    
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-kerning:;
+    font-weight: 100;
+}
+
+.nomeDoProjeto{
+    background: #FFFFFF29;
+    border-radius: 8px;
+    border-style: none;
+    width: 272px;
+    height: 56px;
+    padding-left: 14px;
+    font-size: 1em;
+}
+
+.descricaoDoProjeto{
+    background: #FFFFFF29;
+    border-radius: 8px;
+    border-style: none;
+    width: 272px;
+    height: 80px;
+    padding-left: 14px;
+    font-size: 1em;
+    margin-top: 16px;
+
+}
+
+.flex-container_formulario{
+    margin-left: 32px;
+}
+
+.seletorLinguagem{
+    background: #FFFFFF29;
+    border-radius: 8px;
+    border-style: none;
+    width: 272px;
+    height: 56px;
+    padding-left: 14px;
+    font-size: 1em;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+.seletorDeCor{
+    outline: solid ivory;
+    border: solid 20px #051D3B;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: aqua;
+    width: 256px;
+    height: 40px;
+    margin-top: 20px; ;
+}
+
+.botaoSalvar{
+    background: #5081FB;
+    border-radius: 8px;
+    border-style: none;
+    width: 272px;
+    height: 56px;
+    padding-left: 14px;
+    font-size: 1em;
+    
+    color: ##FFFFFF29;
+    text-decoration: none;
+    font-size: 1em;
+
+    margin-top: 20px;
+}
+
