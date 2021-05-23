@@ -7,6 +7,7 @@
 .cabecalho-avatar{
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .cabecalho-nav-link{
@@ -14,14 +15,23 @@
 }
 
 /* main */
-.flex-item-menu-navegacao{
-    margin-left: 0px;
+
+.flex-container_conteudo{
+    display: flex;
+    justify-content: space-between;
+
 }
 
+
 /* menu */
-.imagens-link, .menu-navegacao-item{
+.flex-item-menu-navegacao{
     display: flex;
-    justify-content:start;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.menu-navegacao-item{
+    display: flex;
     align-items: center;
 }
 
@@ -37,12 +47,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
+}
 
 /* seu projeto */
-.flex-item-seuProjeto{
+
+.seuProjeto{
     display: flex;
-    align-items: ;
     flex-direction: column;
+}
+
+.bolinhas{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
 }
 

@@ -1,12 +1,12 @@
 .cabecalho{
     display: grid;
-    grid-template-columns: calc(100vw-376px) 752px calc(100vw-376px);
+    grid-template-columns: 25% 752px 25%;
     height: 88px;
 }
 
 .cabecalho-logo{
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 2;
 }
 
 .cabecalho-BusqueAlgo{
@@ -15,23 +15,47 @@
 }
 
 .cabecalho-avatar{
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
 
 /* grid do conteudo*/
 
 .flex-container_conteudo{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    height: calc(100vh - 88px);
+    grid-template-columns: 25% 752px 25%;
+    grid-template-rows: 366px 10%;
+    height: calc(80vh - 88px);
 }
 
-.areaDoCodigo{
+.flex-item-menu-navegacao{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.flex-item-areaDoCodigo{
     grid-column-start: 2;
     grid-column-end: 4;
+    grid-row-start:1;
+}
+
+.botaoVisualizar{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 .flex-item-seuProjeto{
-    grid-column-start: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end: 1;
+}
+
+.botaoSalvar{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }

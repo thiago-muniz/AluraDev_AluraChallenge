@@ -9,6 +9,11 @@
     grid-template-columns: auto;
     grid-template-rows: 88px auto auto;
 
+    position: relative;
+    width: 1335px;
+    margin: 0 auto;
+}
+
 }
 
 
@@ -16,24 +21,26 @@
     grid-area: cabecalho;
 }
 
-.cabecalho-logo{
-    padding-left: 32px;
-}
-.cabecalho-avatar{
-    padding-right: 32px;
 }
 
 .conteudo{
     grid-area: conteudo;
 }
 .rodape{
-    background: rebeccapurple;
     grid-area: rodape;
 }
 
 p{
     color: #FFFFFF;
 }
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: auto 32px auto;
+}
+
+
 
 .cabecalho-BusqueAlgo-caixa{
     background: #FFFFFF29;
@@ -46,6 +53,10 @@ p{
     
 }
 
+.cabecalho-avatar{
+    margin-left: 330px;
+}
+
 .cabecalho-nav-link{
     color: #FFFFFF;
     text-decoration: none;
@@ -53,31 +64,42 @@ p{
 }
 
 /* conteudo */
+.flex-item-menu-navegacao{
+    padding-inline-start: 0px;
+}
+
+.menu-navegacao-item{
+    list-style-type: none;
+}
+
 
 .menu-navegacao-item a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1em;
+    padding-left: 16px;
 }
 
 .menu-navegacao-item-icone{
     width: 48px;
     height: 48px;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .flex-item-areaDoCodigo{
-    background-color: aqua;
+    background: #6BD1FF;
     border-radius: 8px;
-    width: 400px;
+    width: 752px;
     height: 366px;
 }
-.caixaDeCodigo{
+.caixaPreta{
     background: rgb(0, 0, 0);
-    color: white;
-    width: 300px;
+    width: 688px;
     height: 302px;
-    margin: 32px;
+    margin-top: 32px;
+
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
 }
 
 .botaoVisualizar{
@@ -94,9 +116,7 @@ p{
 
 /* seu projeto */
 .flex-item-seuProjeto{
-    background-color: rgb(209, 209, 206);
-    margin-right: 32px;
-    
+    margin-right: 32px;  
 }
 
 .titulo{
@@ -135,7 +155,7 @@ p{
     background: #FFFFFF29;
     border-radius: 8px;
     border-style: none;
-    width: 272px;
+    width: 287px;
     height: 56px;
     padding-left: 14px;
     font-size: 1em;
@@ -147,21 +167,27 @@ p{
 
 
 .seletorDeCor{
-    outline: solid ivory;
-    border: solid 20px #051D3B;
+    border: solid 1px ivory;
+    border-radius: 8px;
+    background: #C4C4C403;
+    width: 287px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.cor{
     border-radius: 4px;
-    padding: 20px;
-    background-color: aqua;
-    width: 256px;
+    background: #6BD1FF;
+    width: 271px;
     height: 40px;
-    margin-top: 20px; ;
+    margin:8px;
 }
 
 .botaoSalvar{
     background: #5081FB;
     border-radius: 8px;
     border-style: none;
-    width: 272px;
+    width: 287px;
     height: 56px;
     padding-left: 14px;
     font-size: 1em;
@@ -173,3 +199,54 @@ p{
     margin-top: 20px;
 }
 
+/* bolinhas */
+.bolinhas{
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 16px;
+    width: 60px;
+}
+
+.bolinha-vermelha{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background-color: #FF5F56;
+    ;
+}
+.bolinha-amarelo{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background-color: #FFBD2E;
+    ;
+}
+.bolinha-verde{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background: #27C93F;
+
+}
+
+.caixaDeEscrever{
+    background: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-style:none;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 234px;
+    width: 656px;
+}
+
+/* rodape */
+
+.rodape p{
+    width: auto;
+    text-align: center;
+    background: rgba(102, 51, 153, 0.377);
+    height: 2rem;
+    padding-top: 1rem;
+}

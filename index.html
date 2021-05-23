@@ -16,38 +16,49 @@
     
 </head>
     <body class="principal">
-        <header class="cabecalho">
-                <div class="cabecalho-logo">
-                    <img src="./imagens/LogoAluraDev.svg" alt="Logo AluraDev">
-                </div>
-                
-                <div class="cabecalho-BusqueAlgo">
-                    <form action="#">
-                        <input class="cabecalho-BusqueAlgo-caixa" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
-                    </form>
-                </div>
+            <div class="caixa">
+                <header class="cabecalho">
+                        <div class="cabecalho-logo">
+                            <img src="./imagens/LogoAluraDev.svg" alt="Logo AluraDev">
+                        </div>
+                        
+                        <div class="cabecalho-BusqueAlgo">
+                            <form action="#">
+                                <input class="cabecalho-BusqueAlgo-caixa" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
+                            </form>
+                        </div>
 
-                <div class="cabecalho-avatar">
-                    <img src="./imagens/fotoUsuário/Photo.png" alt="Foto do usuário">
-                    <a class="cabecalho-nav-link" href="#">Harry</a>
-                </div>   
-        </header>
+                        <div class="cabecalho-avatar">
+                            <a class="cabecalho-nav-link" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Harry</a>
+                            <img src="./imagens/fotoUsuário/Photo.png" alt="Foto do usuário">
+                        </div>   
+                </header>
+            </div>
+            <div class="caixa">    
         <main class="flex-container_conteudo">
                 <ul class="flex-item-menu-navegacao">
+                    <li class="menu-navegacao-item"><p class="titulo">menu</p></li>
                     <li class="menu-navegacao-item">
                         <img class="menu-navegacao-item-icone" src="./imagens/icones/iconeeditordecodi.svg" alt="">
-                        <a href="#">Editor de código</a></li>
+                        <a href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Editor de código</a></li>
                     <li class="menu-navegacao-item">
                         <img class="menu-navegacao-item-icone" src="./imagens/icones/iconecomunidade.svg" alt="">
-                        <a href="#">Comunidade</a></li>
-                </ul>
-                
+                        <a href="https://www.alura.com.br/" target="_blank">Comunidade</a></li>
+                    </ul>
                 <div class="flex-item-areaDoCodigo">
-                    <form class="caixaDeCodigo" action="#">
-                        <textarea class="caixaDeCodigo"> </textarea>
-                    </form>
-                    <button class="botaoVisualizar" type="submit">Vizualizar com highlight</button>
+                    <div class="caixaPreta">
+                        <div class="bolinhas">
+                            <div class="bolinha-vermelha"></div>
+                            <div class="bolinha-amarelo"></div>
+                            <div class="bolinha-verde"></div>
+                    </div>
+                        <form action="#">
+                            <textarea class="caixaDeEscrever" name="area de texto" cols="30" rows="10" placeholder="Hello, world! Insira seu código aqui!"></textarea>
+                        </form>
                 </div>
+                    
+                </div>
+                <button class="botaoVisualizar" type="submit">Vizualizar com highlight</button>
 
                 <div class="flex-item-seuProjeto">
                     <form class="flex-container_formulario" action="#">
@@ -55,21 +66,25 @@
                         <input class="nomeDoProjeto" type="text" name="Nome do projeto" placeholder="Nome do seu Projeto">
                         <input class="descricaoDoProjeto" type="text" name="" placeholder="Descrição do seu Projeto">
                         <p class="flex-container_formulario_item titulo">Personalização</p>
-                        <select name="" class="seletorLinguagem">
+                        <select name="Linguagem de Programação" class="seletorLinguagem">
+                            <option value="">Selecione a Linguagem</option>
                             <option value="JavaScript">JavaScript</option>
                             <option value="Python">Python</option>
                             <option value="C#">C#</option>
                         </select>
-                        
-                    </form>
-                    <div class="seletorDeCor"></div>
-                    <input class="botaoSalvar" type="submit" value="Salvar projeto">
-                </div>                   
+                        <div class="seletorDeCor">
+                            <div class="cor"></div>
+                        </div>
+                        <input class="botaoSalvar" type="submit" value="Salvar projeto">
+                    </form> 
+                </div>
+            </div>                       
         </main>
-        </section>
         <footer class="rodape">
             <p>Todos os direitos reservados</p>
         </footer>
+
+
     
     </body>
 </html>
