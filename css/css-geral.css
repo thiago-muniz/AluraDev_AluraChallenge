@@ -128,7 +128,7 @@ p{
 
 .titulo{
     text-transform: uppercase;
-    font-kerning:;
+    letter-spacing: 0.3rem;
     font-weight: 100;
 }
 
