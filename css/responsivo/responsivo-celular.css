@@ -1,0 +1,28 @@
+@media screen and (min-width: 0){
+    /* body geral celular */
+    .principal{
+        grid-template-columns: auto;
+        grid-template-rows: 112px auto auto; 
+    }
+
+    .caixa{
+        margin: auto 16px ;
+    }
+
+
+    /* cabecalho */
+    .cabecalho{
+        background: brown;
+
+        display: grid;
+        grid-template-columns: 15% 75%;
+        height: 112px;
+    }
+
+    }
+
+
+    /* main */
+    /* footer */
+    
+}

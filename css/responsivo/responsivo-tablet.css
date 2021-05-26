@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px){
+    /* body geral tablet */
+    .principal{
+        grid-template-columns: auto;
+        grid-template-rows: 128px auto auto; 
+    }
+    /* cabecalho */
+    .cabecalho{
+    background: rgb(204, 186, 23);
+    }
+
+    .cabecalho-BusqueAlgo-caixa{
+        background: #FFFFFF29;
+        border-radius: 8px;
+        border-style: none;
+        padding-left: 14px;
+        font-size: 1em; 
+    
+        width: 431px;
+        height: 56px;
+           
+    }
+
+    /* main */
+    /* footer */
+}

@@ -1,0 +1,30 @@
+@media screen and (min-width: 992px){
+    /* body geral desktop antigo */
+    .principal{
+        grid-template-columns: auto;
+        grid-template-rows: 88px auto auto; 
+    }
+    /* cabecalho */
+    .cabecalho{
+        background: rgb(87, 165, 42);
+
+        display: grid;
+        grid-template-columns: 25% 752px 25%;
+        height: 88px;
+    }
+
+    .cabecalho-BusqueAlgo-caixa{
+        background: #FFFFFF29;
+        border-radius: 8px;
+        border-style: none;
+        padding-left: 14px;
+        font-size: 1em; 
+    
+        width: 752px;
+        height: 56px;
+           
+    }
+
+    /* main */
+    /* footer */
+}

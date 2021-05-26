@@ -1,9 +1,3 @@
-.cabecalho{
-    display: grid;
-    grid-template-columns: 25% 752px 25%;
-    height: 88px;
-}
-
 .cabecalho-logo{
     grid-column-start: 1;
     grid-column-end: 2;

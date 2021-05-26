@@ -1,28 +1,19 @@
 .principal{
     background-color: #051D3B;
-    display: grid;
     font-family: 'Inter', sans-serif;
+    
+    margin: 0 auto;
+    
+    display: grid;
     grid-template-areas: 
     "cabecalho"
     "conteudo"
     "rodape";
-    grid-template-columns: auto;
-    grid-template-rows: 88px auto auto;
-
-    position: relative;
-    width: 1335px;
-    margin: 0 auto;
 }
-
-}
-
 
 .cabecalho{
     grid-area: cabecalho;
 }
-
-}
-
 .conteudo{
     grid-area: conteudo;
 }
@@ -34,24 +25,8 @@ p{
     color: #FFFFFF;
 }
 
-
 .caixa{
     position: relative;
-    width: 940px;
-    margin: auto 32px auto;
-}
-
-
-
-.cabecalho-BusqueAlgo-caixa{
-    background: #FFFFFF29;
-    border-radius: 8px;
-    border-style: none;
-    width: 752px;
-    height: 56px;
-    padding-left: 14px;
-    font-size: 1em;
-    
 }
 
 .cabecalho-avatar{
