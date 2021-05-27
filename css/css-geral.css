@@ -29,8 +29,9 @@ p{
     position: relative;
 }
 
-.cabecalho-avatar{
-    margin-left: 330px;
+.cabecalho-logo{
+    width: 145px;
+    height: 34px;
 }
 
 .cabecalho-nav-link{
@@ -71,13 +72,9 @@ p{
 .flex-item-areaDoCodigo{
     background: #6BD1FF;
     border-radius: 8px;
-    width: 752px;
-    height: 366px;
 }
 .caixaPreta{
     background: rgb(0, 0, 0);
-    width: 688px;
-    height: 302px;
     margin-top: 32px;
 
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
@@ -95,6 +92,45 @@ p{
     font-size: 1em;
     margin-top: 16px;
 }
+
+/* bolinhas */
+.bolinhas{
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 16px;
+    width: 60px;
+}
+
+.bolinha-vermelha{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background-color: #FF5F56;
+    ;
+}
+.bolinha-amarelo{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background-color: #FFBD2E;
+    ;
+}
+.bolinha-verde{
+    height: 16px;
+    width: 16px;
+    border-radius: 10px;
+    background: #27C93F;
+
+}
+
+.caixaDeEscrever{
+    background: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-style:none;
+    border-radius: 8px;
+}
+
 
 /* seu projeto */
 .flex-item-seuProjeto{
@@ -174,58 +210,19 @@ p{
     padding-left: 14px;
     font-size: 1em;
     
-    color: ##FFFFFF29;
+    color: #FFFFFF29;
     text-decoration: none;
     font-size: 1em;
 
     margin-top: 20px;
 }
 
-/* bolinhas */
-.bolinhas{
-    margin-top: 16px;
-    margin-left: 16px;
-    height: 16px;
-    width: 60px;
-}
-
-.bolinha-vermelha{
-    height: 16px;
-    width: 16px;
-    border-radius: 10px;
-    background-color: #FF5F56;
-    ;
-}
-.bolinha-amarelo{
-    height: 16px;
-    width: 16px;
-    border-radius: 10px;
-    background-color: #FFBD2E;
-    ;
-}
-.bolinha-verde{
-    height: 16px;
-    width: 16px;
-    border-radius: 10px;
-    background: #27C93F;
-
-}
-
-.caixaDeEscrever{
-    background: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    border-style:none;
-    border-radius: 8px;
-    margin-top: 16px;
-    margin-left: 16px;
-    height: 234px;
-    width: 656px;
-}
+/* seu projeto */
 
 /* rodape */
 
 .rodape p{
+    display: none;
     width: auto;
     text-align: center;
     background: rgba(102, 51, 153, 0.377);
