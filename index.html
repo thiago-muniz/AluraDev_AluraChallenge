@@ -7,45 +7,55 @@
     <title>AluraDev</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
     <link rel="shortcut icon" href="./imagens/favicon-01.svg" type="image/x-icon">
     
-    <link rel="stylesheet" href="./css/css-geral.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/icones.css">
-    <link rel="stylesheet" href="./css/flexbox.css">
-    <link rel="stylesheet" href="./css/grid.css">
-    <link rel="stylesheet" href="./css/responsivo/responsivo-celular.css">
-    <link rel="stylesheet" href="./css/responsivo/responsivo-tablet.css">
-    <link rel="stylesheet" href="./css/responsivo/responsivo-desktop.css">
-    <link rel="stylesheet" href="./css/responsivo/responsivo-tv.css">
     
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/css-geral.css">
+    
+    <link rel="stylesheet" href="./css/cabecalho/principal-cabecalho.css">
+    <link rel="stylesheet" href="./css/cabecalho/principal-cabecalho-avatar.css">
+    
+    <link rel="stylesheet" href="./css/main/principal_main.css">
+    
+    <link rel="stylesheet" href="./css/footer/principal-footer.css">
+
 </head>
     <body class="principal">
-            <div class="caixa">
-                <header class="cabecalho">
-                        <div class="cabecalho-logo">
-                            <img src="./imagens/LogoAluraDev.svg" alt="Logo AluraDev">
-                        </div>
-                        
-                        <div class="cabecalho-BusqueAlgo">
-                            <form action="#">
-                                <input class="cabecalho-BusqueAlgo-caixa" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
-                            </form>
-                        </div>
-                        <div class="cabecalho-lupa">
-                            <img src="./imagens/icones/iconeLupa.svg" alt="">
-                        </div>
-                        <div class="cabecalho-menuHamburguer">
-                            <img src="./imagens/icones/iconeMenu.svg" alt="">
-                        </div>
+        <header class="principal_cabecalho">
+                <div class="principal_cabecalho_logo">
+                    <img src="./imagens/LogoAluraDev.svg" alt="Logo AluraDev">
+                </div>
+                    
+                <div class="principal_cabecalho_pesquisa">
+                    <form action="#">
+                        <input class="principal_cabecalho_pesquisa_input" type="search" name="BusqueAlgo" placeholder="Busque por Algo">
+                    </form>
+                </div>
+                
+                <div class="principal_cabecalho_lupa">
+                    <img src="./imagens/icones/iconeLupa.svg" alt="">
+                </div>
+                <div class="principal_cabecalho_menu">
+                    <img src="./imagens/icones/iconeMenu.svg" alt="">
+                </div>
 
-                        <div class="cabecalho-avatar">
-                            <a class="cabecalho-nav-link" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Thiago</a>
-                            <img class="foto" src="https://avatars.githubusercontent.com/u/55590823?s=400&u=5c8347a3c0addf26ca4356531ee98bb99e9853b3&v=4" alt="Foto do usuário">
-                        </div>   
-                </header>
-            </div>
-            <div class="caixa">    
+                <div class="principal_cabecalho_avatar">
+                    <img class="principal_cabecalho_avatar_foto" src="https://avatars.githubusercontent.com/u/55590823?s=400&u=5c8347a3c0addf26ca4356531ee98bb99e9853b3&v=4" alt="Foto do usuário">
+                    <a class="principal_cabecalho_avatar_nome" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Thiago</a>
+                </div>   
+        </header>
+
+        <main class="principal_main">
+            <p></p>
+        </main>
+        
+        <footer class="principal_footer">
+            <p></p>
+        </footer>
+
+<!-- 
         <main class="flex-container_conteudo">
                 <ul class="flex-item-menu-navegacao">
                     <li class="menu-navegacao-item"><p class="titulo">menu</p></li>
@@ -63,12 +73,11 @@
                             <div class="bolinha-amarelo"></div>
                             <div class="bolinha-verde"></div>
                     </div>
-                        <form action="#">
-                            <textarea class="caixaDeEscrever" name="area de texto" cols="30" rows="10" placeholder="Hello, world! Insira seu código aqui!"></textarea>
-                        </form>
+                    <form action="#">
+                        <textarea class="caixaDeEscrever" name="area de texto" cols="30" rows="10" placeholder="Hello, world! Insira seu código aqui!"></textarea>
+                    </form>
                 </div>
                     
-                </div>
                 <button class="botaoVisualizar" type="submit">Vizualizar com highlight</button>
 
                 <div class="flex-item-seuProjeto">
@@ -94,6 +103,7 @@
         <footer class="rodape">
             <p class="texto-rodape">Todos os direitos reservados</p>
         </footer>
-    
+--> 
     </body>
+
 </html>

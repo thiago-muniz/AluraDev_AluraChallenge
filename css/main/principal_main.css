@@ -1,0 +1,19 @@
+.principal_main{
+
+    background: rosybrown;
+    margin: 0 32px;
+
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    grid-template-rows: auto;
+
+}
+
+p{
+    background: chartreuse;
+    height: 100px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}

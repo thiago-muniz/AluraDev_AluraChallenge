@@ -1,0 +1,14 @@
+.principal_cabecalho_avatar{
+    display: flex;
+    align-items: center;
+}
+
+.principal_cabecalho_avatar_foto{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+}
+.principal_cabecalho_avatar_nome{
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
