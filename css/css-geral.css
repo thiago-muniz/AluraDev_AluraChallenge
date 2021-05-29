@@ -1,6 +1,5 @@
 .principal{
     background: #051D3B;
-    width: 1440px;
     display: grid;
     grid-template-areas: 
     "cabecalho"
@@ -10,6 +9,25 @@
     grid-template-rows: 88px auto auto;
 }
 
-.principal_cabecalho_lupa, .principal_cabecalho_menu{
-    display: none;
+/* bolinhas */
+.principal_main_container_box_bolinhas{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolinha-vermelha, .bolinha-amarelo, .bolinha-verde{
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+}
+.bolinha-vermelha{
+    background: #FF5F56;
+}
+.bolinha-amarelo{
+    background: #FFBD2E;
+}
+.bolinha-verde{
+    background: #27C93F;
+
 }

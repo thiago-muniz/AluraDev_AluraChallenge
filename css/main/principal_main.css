@@ -1,19 +1,22 @@
 .principal_main{
-
-    background: rosybrown;
-    margin: 0 32px;
-
     grid-area: main;
     display: grid;
     grid-template-columns: 20% 55% 25%;
     grid-template-rows: auto;
-
+}
+.principal_main_container{
+    background: #6BD1FF;    
 }
 
-p{
-    background: chartreuse;
-    height: 100px;
+.principal_main_container_box{
+    background: black;
+}
 
-    grid-column-start: 2;
-    grid-column-end: 3;
+.principal_main_container_box_bolinhas{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.principal_main_container_box_code{
+    background: rgb(104, 101, 101);
 }

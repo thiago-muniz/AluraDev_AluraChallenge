@@ -1,0 +1,36 @@
+@media screen and (min-width:0) {
+    .principal_main{
+        margin: 0 16px;
+
+    }
+
+    .principal_main_container{
+        width: 100%;
+        height: 492px;
+        border-radius: 8px;
+        border-style: none;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .principal_main_container_box{
+        width: calc(100% - 32px);
+        height: calc(100% - 32px);
+        margin-left: 16px;
+        margin-top: 16px;
+        border-radius: 8px;
+        border-style: none;
+    }
+
+
+    .principal_main_container_box_code{
+        width: calc(100% - 32px);
+        height: calc(492px - 32px - 65px);
+        margin-left: 16px;
+        margin-top: 16px;
+        border-radius: 8px;
+        border-style: none;
+
+    }
+}

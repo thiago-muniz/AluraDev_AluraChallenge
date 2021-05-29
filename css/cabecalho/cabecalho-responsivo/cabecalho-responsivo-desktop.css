@@ -1,0 +1,19 @@
+@media screen and (min-width:1440px) {
+    .principal{
+        width: 1440px;
+        grid-template-rows: 88px auto auto;
+    }
+    .principal_cabecalho{
+        grid-template-columns: 20% 55% 25%;
+        margin: 0 32px;
+    }
+    .principal_cabecalho_lupa, .principal_cabecalho_menu{
+        display: none;
+    }
+    .principal_cabecalho_pesquisa{
+        display: flex;
+    }
+    .principal_cabecalho_avatar{
+        display: flex;
+    }
+}

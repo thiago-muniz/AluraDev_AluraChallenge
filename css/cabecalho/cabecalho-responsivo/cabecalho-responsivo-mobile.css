@@ -1,0 +1,30 @@
+@media screen and (min-width:0) {
+    .principal{
+        width: 375px;
+        grid-template-rows: 112px auto auto;
+    }
+    .principal_cabecalho{
+        grid-template-columns: 80% 10% 10%;
+        align-items:center;
+        margin: 0 16px;
+    }
+
+    .principal_cabecalho_lupa, .principal_cabecalho_menu{
+        display: flex;
+    }
+    .principal_cabecalho_pesquisa{
+        display: none;
+    }
+    .principal_cabecalho_avatar{
+        display: none;
+    }
+
+    .principal_cabecalho_lupa{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .principal_cabecalho_menu{
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+}

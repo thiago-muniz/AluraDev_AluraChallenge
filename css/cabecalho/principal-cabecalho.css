@@ -5,8 +5,6 @@
     grid-template-rows: auto;
 
     align-items: center;
-
-    margin: 0 32px;
 }
 
 .principal_cabecalho_logo{
@@ -26,6 +24,7 @@
 .principal_cabecalho_pesquisa_input{
     width: 756px;
     height: 56px;
+    background: #FFFFFF29;
     border-radius: 8px;
     border-style: none;
     padding-left: 1rem;
