@@ -4,8 +4,9 @@
         grid-template-rows: 88px auto auto;
     }
     .principal_cabecalho{
-        grid-template-columns: 20% 55% 25%;
+        grid-template-columns: 15% 55% 25%;
         margin: 0 32px;
+        gap: 0px 40px;
     }
     .principal_cabecalho_lupa, .principal_cabecalho_menu{
         display: none;

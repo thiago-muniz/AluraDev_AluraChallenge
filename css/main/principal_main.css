@@ -2,7 +2,10 @@
     grid-area: main;
     display: grid;
     grid-template-columns: 20% 55% 25%;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: start;
+    
+    
 }
 .principal_main_container{
     background: #6BD1FF;    
@@ -19,4 +22,56 @@
 
 .principal_main_container_box_code{
     background: rgb(104, 101, 101);
+}
+
+.principal_main_container_highlight{
+    background: #5081FB14;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+}
+
+/* menu */
+.principal_main_menuLista_lista_titulo .titulo{
+    margin: 0px;
+}
+
+/* formulario seu projeto */
+
+.principal_main_projeto{
+    display: flex;
+    flex-direction: column;
+}
+.principal_main_projeto_formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.principal_main_projeto_formulario_titulo{
+    margin: 0px;
+}
+
+.principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao, .principal_main_projeto_formulario_linguagem{
+    color: white;
+    background: #FFFFFF29;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.principal_main_projeto_formulario_seletor{
+    border-radius: 8px;
+    border-style: solid;
+    border: solid white;
+}
+.principal_main_projeto_formulario_seletor_cor{
+    border-radius: 4px;
+    background: turquoise;
+}
+
+.principal_main_projeto_formulario_salvar{
+    background: #5081FB;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
 }
