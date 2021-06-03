@@ -1,8 +1,9 @@
-body{
+*{
     font-family: 'Inter', sans-serif;
     color: white;
 
 }
+
 .principal{
     background: #051D3B;
     display: grid;
@@ -13,6 +14,26 @@ body{
     grid-template-columns: auto;
     grid-template-rows: 88px auto auto;
 }
+
+h2{
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1rem;
+}
+h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
 
 /* bolinhas */
 .principal_main_container_box_bolinhas{
@@ -35,39 +56,4 @@ body{
 .bolinha-verde{
     background: #27C93F;
 
-}
-
-/* menu */
-
-.principal_main_menuLista_lista{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.principal_main_menuLista_lista_item{
-    width: 150px;
-    display: flex;
-    align-items: center;
-    flex-direction: ;
-    justify-content: space-between;
-}
-
-.principal_main_menuLista_lista_item_icone{
-    width: 32px;
-    height: 32px;
-}
-
-.principal_main_menuLista_lista_item_link{
-    text-decoration: none;
-    text-align:left;
-}
-
-h2{
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1rem;
 }

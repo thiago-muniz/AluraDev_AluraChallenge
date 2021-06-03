@@ -3,7 +3,7 @@
         margin: 0 32px;
 
         grid-template-columns: 15% 55% 25%;
-        grid-template-rows: auto;
+        grid-template-rows: 366px auto;
     
         align-items: center;
         gap: 0px 40px;
@@ -74,13 +74,19 @@
         align-self: start;
     }
 
-    .principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao, .principal_main_projeto_formulario_linguagem, .principal_main_projeto_formulario_salvar{
+    .principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao{
         margin: 10px 0 10px 0;
-        width: 100%;
+        width: calc(100% - 15px);
+        height: 56px;
+    }
+
+    .principal_main_projeto_formulario_linguagem, .principal_main_projeto_formulario_salvar{
+        margin: 10px 0 10px 0;
+        width: 100%; 
         height: 56px;
     }
     .principal_main_projeto_formulario_seletor_cor{
-        width: 50px;
+        width: 335px;
         height: 50px;
 
     }

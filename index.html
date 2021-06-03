@@ -47,10 +47,10 @@
                     <img src="./imagens/icones/iconeMenu.svg" alt="">
                 </div>
 
-                <div class="principal_cabecalho_avatar">
+                <a class="principal_cabecalho_avatar" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">
                     <img class="principal_cabecalho_avatar_foto" src="https://avatars.githubusercontent.com/u/55590823?s=400&u=5c8347a3c0addf26ca4356531ee98bb99e9853b3&v=4" alt="Foto do usuário">
-                    <a class="principal_cabecalho_avatar_nome" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Thiago</a>
-                </div>   
+                    <h3 class="principal_cabecalho_avatar_nome" >Thiago</h3>
+                </a>   
         </header>
 
         <main class="principal_main">
@@ -69,15 +69,27 @@
             <button class="principal_main_container_highlight" type="submit">Vizualizar com highlight</button>
             
             <section class="principal_main_menuLista">
-                <ul class="principal_main_menuLista_lista">
-                    <li class="principal_main_menuLista_lista_titulo"><h2 class="titulo">menu</h2></li>
-                    <li class="principal_main_menuLista_lista_item">
-                        <img class="principal_main_menuLista_lista_item_icone" src="./imagens/icones/iconeeditordecodi.svg" alt="">
-                        <a class="principal_main_menuLista_lista_item_link" href="https://thiago-muniz.github.io/hellothiago/" target="_blank">Editor de código</a></li>
-                    <li class="principal_main_menuLista_lista_item">
-                        <img class="principal_main_menuLista_lista_item_icone" src="./imagens/icones/iconecomunidade.svg" alt="">
-                        <a class="principal_main_menuLista_lista_item_link" href="https://www.alura.com.br/" target="_blank">Comunidade</a></li>
-                </ul>
+                <div class="principal_main_menuLista_lista">
+                    <h2 class="principal_main_menuLista_lista_titulo">menu</h2>
+                    <a class="principal_main_menuLista_lista_grupo" href="https://www.alura.com.br/" target="_blank">
+                        <button class="principal_main_menuLista_grupo_botao">
+                            <div class="principal_main_menuLista_grupo_botao_icone">
+                                <img class="principal_main_menuLista_grupo_botao_icone_picto" src="./imagens/iconeComunidade/editor.svg">
+                            </div>
+                            <h3 class="principal_main_menuLista_grupo_botao_titulo">Editor de código</h3>
+                        </button>
+                    </a>
+                    
+                    <a class="principal_main_menuLista_lista_grupo" href="https://www.alura.com.br/" target="_blank">
+                        <button class="principal_main_menuLista_grupo_botao">
+                            <div class="principal_main_menuLista_grupo_botao_icone">
+                                <img class="principal_main_menuLista_grupo_botao_icone_picto" src="./imagens/iconeComunidade/editor.svg">
+                            </div>
+                            <h3 class="principal_main_menuLista_grupo_botao_titulo">Editor de código</h3>
+                        </button>
+                    </a>
+
+                </div>
             </section>
             <section class="principal_main_projeto">
                 <form class="principal_main_projeto_formulario" action="#">
@@ -93,20 +105,15 @@
                         <option value="C#">C#</option>
                     </select>
                     <div class="principal_main_projeto_formulario_seletor">
-                        <div class="principal_main_projeto_formulario_seletor_cor"></div>
+                        <input class="principal_main_projeto_formulario_seletor_cor" type="color" name="" id="">
                     </div>
                     <input class="principal_main_projeto_formulario_salvar" type="submit" value="Salvar projeto">
                 </form> 
 
             </section>   
         </main>
-  <!--       
-        <footer class="principal_footer">
-            <p></p>
+        <footer>
         </footer>
-        <footer class="rodape">
-            <p class="texto-rodape">Todos os direitos reservados</p>
-        </footer> -->
 
     </body>
 

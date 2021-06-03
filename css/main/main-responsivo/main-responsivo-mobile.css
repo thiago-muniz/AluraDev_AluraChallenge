@@ -57,9 +57,15 @@
         grid-row-start: 3;
         grid-row-end: 3;
     }
-    .principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao, .principal_main_projeto_formulario_linguagem, .principal_main_projeto_formulario_salvar{
+    .principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao{
         margin: 10px 0 10px 0;
-        width: 100%;
+        width: calc(100% - 15px);
+        height: 56px;
+    }
+
+    .principal_main_projeto_formulario_linguagem, .principal_main_projeto_formulario_salvar{
+        margin: 10px 0 10px 0;
+        width: 100%; 
         height: 56px;
     }
 
