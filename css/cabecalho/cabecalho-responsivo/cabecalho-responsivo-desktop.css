@@ -17,4 +17,10 @@
     .principal_cabecalho_avatar{
         display: flex;
     }
+    .principal_cabecalho_menu-dropdown{
+        display: none;
+    }
+    .principal_cabecalho_lupa-dropdown{
+        display: none;
+    }
 }

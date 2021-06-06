@@ -4,8 +4,7 @@
         grid-template-rows: 112px auto auto;
     }
     .principal_cabecalho{
-        grid-template-columns: 80% 10% 10%;
-        align-items:center;
+        grid-template-columns: 70% 15% 15% ;
         margin: 0 16px;
     }
 
@@ -15,16 +14,87 @@
     .principal_cabecalho_pesquisa{
         display: none;
     }
+
+    .principal_cabecalho_lupa{
+        margin-left: 120px;
+    }
+
     .principal_cabecalho_avatar{
         display: none;
     }
 
-    .principal_cabecalho_lupa{
-        grid-column-start: 2;
-        grid-column-end: 3;
+    .principal_cabecalho_menu_lista{
+        padding-left: 0px;
+        list-style: none;
     }
-    .principal_cabecalho_menu{
-        grid-column-start: 3;
-        grid-column-end: 3;
+
+    .principal_cabecalho_menu_lista_icone_janela_itens{
+        padding-inline-start: 0px;
+        list-style: none;
+
     }
+
+/* lupa dropdown */
+.principal_cabecalho_lupa-dropdown{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.principal_cabecalho_lupa-dropdown_conteudo{
+    list-style: none;
+
+    display: none;
+    position:absolute;
+    background: rgba(255, 235, 205, 0);
+    padding-left: 0px;
+    margin-top: 30px;
+}
+
+.principal_cabecalho_lupa-dropdown_conteudo li{
+    width: 100%;
+    color: black;
+}
+.principal_cabecalho_lupa-dropdown:hover .principal_cabecalho_lupa-dropdown_conteudo{
+    display: block;        
+}
+
+.principal_cabecalho_lupa-dropdown_conteudo_li{
+
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* menu dropdown */
+    .principal_cabecalho_menu-dropdown{
+        position: relative;
+        display:inline-flex;
+        flex-direction: row-reverse;
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo{
+        background: #2D415B;
+        border-radius: 8px;
+        width: 254px;
+        height: 371px;
+
+        list-style: none;
+
+        display: none;
+        position:absolute;
+        
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo li{
+        padding: 15px 0px;
+        
+    }
+    .principal_cabecalho_menu-dropdown:hover .principal_cabecalho_menu-dropdown_conteudo{
+        display: block;        
+    }
+
 }

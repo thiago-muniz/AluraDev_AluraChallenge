@@ -57,3 +57,34 @@ a:visited{
     background: #27C93F;
 
 }
+
+/* botão de menu */
+
+.geral_container_botao{
+    display: flex;
+    align-items: center;
+}
+
+.geral_container_botao_icone{
+    background: rgba(80, 129, 251, 0.16);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 48px;
+    height: 48px;
+    
+}
+.geral_container_botao_icone:hover{
+    background: #5081FB;
+}
+
+.geral_container_botao_icone_picto{
+    width: 1.5rem;
+}
+
+.geral_container_botao_titulo{
+    margin-left: 1rem;
+}
+
