@@ -20,8 +20,9 @@
     padding-left: 15px;
 }
 
-.principal_main_container_box_code{
-    background: rgb(104, 101, 101);
+.principal_main_container_box_codigo-wrapper{
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .principal_main_container_highlight{

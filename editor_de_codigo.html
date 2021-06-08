@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraDev</title>
+    <title>AluraDev - Editor</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
     
@@ -13,6 +13,7 @@
     
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/css-geral.css">
+    <link rel="stylesheet" href="./css/github-dark.css">
     
     <link rel="stylesheet" href="./css/cabecalho/principal-cabecalho.css">
     <link rel="stylesheet" href="./css/cabecalho/principal-cabecalho-avatar.css">
@@ -86,6 +87,20 @@
         </header>
 
         <main class="principal_main">
+            <div class="principal_main_container">
+                <div class="principal_main_container_box">
+                    <div class="principal_main_container_box_bolinhas">
+                        <div class="bolinha-vermelha"></div>
+                        <div class="bolinha-amarelo"></div>
+                        <div class="bolinha-verde"></div> 
+                    </div>
+                    <div class="principal_main_container_box_codigo-wrapper">
+                    <code class="preview hljs" contenteditable="true" aria-label="editor">function teste() {}</code>
+                    </div>        
+                </div>    
+            </div>
+            <button class="principal_main_container_highlight" type="submit">Vizualizar com highlight</button>
+            
             <section class="principal_main_menuLista">
                 <div class="principal_main_menuLista_lista">
                     <h2 class="principal_main_menuLista_lista_titulo">menu</h2>
@@ -101,12 +116,40 @@
                         </div>
                         <h3 class="geral_container_botao_titulo">Comunidade</h3>
                     </a>
+                   
+
                 </div>
+            </section>
+            <section class="principal_main_projeto">
+                <form class="principal_main_projeto_formulario" action="#">
+                    <h2 class="principal_main_projeto_formulario_titulo">Seu projeto</h2>
+                    <input class="principal_main_projeto_formulario_inputNome" type="text" name="Nome do projeto" placeholder="Nome do seu Projeto">
+                    <input class="principal_main_projeto_formulario_inputDescricao" type="text" name="" placeholder="Descrição do seu Projeto">
+                    
+                    <h2 class="principal_main_projeto_formulario_inputTexto">Personalização</h2>
+
+                    <div class="principal_main_projeto_personalizacao">
+                        <select name="seletor de linguagem" id="linguagem "class="principal_main_projeto_formulario_linguagem">
+                            <option value="">Selecione a Linguagem</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                        </select>
+                        <div class="principal_main_projeto_formulario_seletor">
+                            <div class="principal_main_projeto_formulario_seletor_cor"></div>
+                        </div>
+                    </div>
+                    <input class="principal_main_projeto_formulario_salvar" type="submit" value="Salvar projeto">
+                </form>
+                    
             </section>   
         </main>
         <footer>
         </footer>
-
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+        <script src="index.js"></script>
     </body>
 
 </html>
