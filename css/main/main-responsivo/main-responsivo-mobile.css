@@ -69,9 +69,19 @@
         height: 56px;
     }
 
-    .principal_main_projeto_formulario_seletor_cor{
-        width: 50px;
-        height: 50px;
+    .principal_main_projeto_formulario_seletor{
+        margin: 10px 0 10px 0;
+        width: calc(100% - 4px); 
+        height: 56px;
 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .principal_main_projeto_formulario_seletor_cor{
+        background-color: cadetblue;
+        width: 96%;
+        height: 75%;
     }
 }

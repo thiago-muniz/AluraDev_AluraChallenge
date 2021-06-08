@@ -82,13 +82,16 @@
 
     .principal_main_projeto_formulario_linguagem, .principal_main_projeto_formulario_salvar{
         margin: 10px 0 10px 0;
-        width: 100%; 
+        width: calc(100% - 4px);
         height: 56px;
     }
     .principal_main_projeto_formulario_seletor_cor{
-        width: 335px;
+        width: calc(100% - 4px); 
         height: 50px;
 
+    }
+    .principal_main_projeto_personalizacao{
+        flex-direction: column;
     }
 
 }

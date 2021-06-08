@@ -1,0 +1,101 @@
+@media screen and (min-width:768px) {
+    .principal_main{
+        margin: 0 16px;
+        grid-template-columns: 50% 50%;
+
+    }
+
+    .principal_main_container{
+        width: 100%;
+        height: 492px;
+        border-radius: 8px;
+        border-style: none;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .principal_main_container_box{
+        width: calc(100% - 32px);
+        height: calc(100% - 32px);
+        margin-left: 16px;
+        margin-top: 16px;
+        border-radius: 8px;
+        border-style: none;
+    }
+
+
+    .principal_main_container_box_code{
+        width: calc(100% - 32px);
+        height: calc(492px - 32px - 65px);
+        margin-left: 16px;
+        margin-top: 16px;
+        border-radius: 8px;
+        border-style: none;
+
+    }
+
+    .principal_main_container_highlight{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        height: 56px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+/* menu lateral */
+    .principal_main_menuLista{
+        display:none;
+    }
+/* formulario seu projeto */
+    .principal_main_projeto{
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .principal_main_projeto_formulario_inputNome, .principal_main_projeto_formulario_inputDescricao{
+        margin: 10px 0 10px 0;
+        width: calc(100% - 15px);
+        height: 56px;
+    }
+
+    .principal_main_projeto_formulario_salvar{
+        margin: 10px 0 10px 0;
+        width: 100%; 
+        height: 56px;
+    }
+
+    .principal_main_projeto_personalizacao{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .principal_main_projeto_formulario_linguagem{
+        margin: 10px 0 10px 0;
+        width: calc(50% - 4px); 
+        height: 56px;
+    }
+
+    .principal_main_projeto_formulario_seletor{
+        margin: 10px 0 10px 0;
+        width: calc(50% - 4px); 
+        height: 56px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .principal_main_projeto_formulario_seletor_cor{
+        background-color: cadetblue;
+        width: 96%;
+        height: 75%;
+    }
+
+ç
+}

@@ -14,6 +14,9 @@
     .principal_cabecalho_pesquisa{
         display: flex;
     }
+    .principal_cabecalho_pesquisa_input{
+        width: 756px;
+    }
     .principal_cabecalho_avatar{
         display: flex;
     }

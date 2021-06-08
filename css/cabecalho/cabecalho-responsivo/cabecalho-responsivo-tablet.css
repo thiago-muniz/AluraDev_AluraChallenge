@@ -1,0 +1,111 @@
+@media screen and (min-width:768px) {
+    .principal{
+        width: 768px;
+        grid-template-rows: 112px auto auto;
+    }
+    .principal_cabecalho{
+        grid-template-columns: 25% 65% 10% ;
+        margin: 0 16px;
+    }
+
+    .principal_cabecalho_lupa, .principal_cabecalho_menu{
+        display: flex;
+    }
+    .principal_cabecalho_pesquisa{
+        display: none;
+    }
+    .principal_cabecalho_pesquisa_input{
+        width: 431px;
+    }
+
+    .principal_cabecalho_lupa{
+        margin-left: 120px;
+    }
+
+    .principal_cabecalho_avatar{
+        display: none;
+    }
+
+    .principal_cabecalho_menu_lista{
+        padding-left: 0px;
+        list-style: none;
+    }
+
+    .principal_cabecalho_menu_lista_icone_janela_itens{
+        padding-inline-start: 0px;
+        list-style: none;
+
+    }
+
+/* lupa dropdown */
+.principal_cabecalho_lupa-dropdown{
+    display: none;
+}
+
+/* busca */
+.principal_cabecalho_pesquisa{
+    display: flex;
+}
+
+.principal_cabecalho_lupa-dropdown:hover .principal_cabecalho_lupa-dropdown_conteudo{
+    display: block;        
+}
+
+.principal_cabecalho_lupa-dropdown_conteudo_li{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.principal_cabecalho_lupa-dropdown_conteudo_li_input{
+    width: 287px;
+    height: 55px;
+    border-style: none;
+    border-radius: 8px;
+    background: #2D415B;
+    padding-left: 1rem;
+}
+
+/* menu dropdown */
+    .principal_cabecalho_menu-dropdown{
+        position: relative;
+        display:inline-flex;
+        flex-direction: row-reverse;
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo{
+        background: #2D415B;
+        border-radius: 8px;
+        width: 200px;
+        height: 300px;
+
+        list-style: none;
+
+        display: none;
+        position:absolute;
+        
+        padding:10px;
+        margin-top: 20px;
+    }
+
+    .principal_cabecalho_menu-dropdown:hover .principal_cabecalho_menu-dropdown_conteudo{
+        display: block;        
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo_botao{
+        margin-bottom: 16px;
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo_botao:nth-child(2){
+        margin-bottom: 24px;
+    }
+
+    .principal_cabecalho_menu-dropdown_conteudo_linha{
+        margin-bottom: 32px;
+
+    }
+    .principal_cabecalho_menu-dropdown_conteudo_linha li{
+        width: 206px;
+        border: 1px solid #FFFFFF;
+    }
+}

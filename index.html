@@ -44,15 +44,14 @@
                     <img src="./imagens/icones/iconeLupa.svg" alt="">
                     <ul class="principal_cabecalho_lupa-dropdown_conteudo">
                         <li class="principal_cabecalho_lupa-dropdown_conteudo_li">
-                            <input class="" type="search" name="" id="">
-                            <img src="/imagens/icones/iconeX.png" alt="">
+                            <input class="principal_cabecalho_lupa-dropdown_conteudo_li_input" type="search" placeholder="Busque por algo">
                         </li>
                     </ul>
                 </div>
                 <div class="principal_cabecalho_menu-dropdown">
                     <img src="./imagens/icones/iconeMenu.svg" alt="">
                     <ul class="principal_cabecalho_menu-dropdown_conteudo">
-                        <li>
+                        <li class="principal_cabecalho_menu-dropdown_conteudo_botao">
                             <a class="geral_container_botao" href="#">
                                 <div class="geral_container_botao_icone">
                                     <img class="geral_container_botao_icone_picto" src="imagens/iconeComunidade/editor.svg">  
@@ -60,7 +59,7 @@
                                 <h3 class="geral_container_botao_titulo">Editor de código</h3>
                             </a>
                         </li>
-                        <li>
+                        <li class="principal_cabecalho_menu-dropdown_conteudo_botao">
                             <a class="geral_container_botao" href="#">
                                 <div class="geral_container_botao_icone">
                                     <img class="geral_container_botao_icone_picto" src="./imagens/iconeComunidade/comunidade.svg" alt="">  
@@ -68,8 +67,15 @@
                                 <h3 class="geral_container_botao_titulo">Comunidade</h3>
                             </a>
                         </li>
-                        <li><hr></li>
-                        <li>avatar</li>
+                        <li class="principal_cabecalho_menu-dropdown_conteudo_linha"><hr></li>
+                        <li class="principal_cabecalho_menu-dropdown_conteudo_avatar">
+                            <a class="geral_container_botao" href="#">
+                                <div class="geral_container_botao_avatar">
+                                    <img class="geral_container_botao_avatar_foto" src="/imagens/fotoUsuário/Photo.png">  
+                                </div>
+                                <h3 class="geral_container_botao_titulo">Editor de código</h3>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 
@@ -97,14 +103,19 @@
             <section class="principal_main_menuLista">
                 <div class="principal_main_menuLista_lista">
                     <h2 class="principal_main_menuLista_lista_titulo">menu</h2>
-                    <div>
-                        <a class="geral_container_botao" href="#">
-                            <div class="geral_container_botao_icone">
-                                <img class="geral_container_botao_icone_picto" src="imagens/iconeComunidade/editor.svg">  
-                            </div>
-                            <h3 class="geral_container_botao_titulo">Editor de código</h3>
+                    <a class="geral_container_botao" href="#">
+                        <div class="geral_container_botao_icone">
+                            <img class="geral_container_botao_icone_picto" src="imagens/iconeComunidade/editor.svg">  
+                        </div>
+                        <h3 class="geral_container_botao_titulo">Editor de código</h3>
                         </a>
-                    </div>
+                    <a class="geral_container_botao" href="#">
+                        <div class="geral_container_botao_icone">
+                            <img class="geral_container_botao_icone_picto" src="imagens/iconeComunidade/comunidade.svg">  
+                        </div>
+                        <h3 class="geral_container_botao_titulo">Comunidade</h3>
+                    </a>
+                   
 
                 </div>
             </section>
@@ -115,18 +126,25 @@
                     <input class="principal_main_projeto_formulario_inputDescricao" type="text" name="" placeholder="Descrição do seu Projeto">
                     
                     <h2 class="principal_main_projeto_formulario_inputTexto">Personalização</h2>
-                    <select name="seletor de linguagem" class="principal_main_projeto_formulario_linguagem">
-                        <option value="">Selecione a Linguagem</option>
-                        <option value="JavaScript">JavaScript</option>
-                        <option value="Python">Python</option>
-                        <option value="C#">C#</option>
-                    </select>
-                    <div class="principal_main_projeto_formulario_seletor">
-                        <input class="principal_main_projeto_formulario_seletor_cor" type="color" name="" id="">
-                    </div>
-                    <input class="principal_main_projeto_formulario_salvar" type="submit" value="Salvar projeto">
-                </form> 
 
+
+                    <div class="principal_main_projeto_personalizacao">
+                        <select name="seletor de linguagem" class="principal_main_projeto_formulario_linguagem">
+                            <option value="">Selecione a Linguagem</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="C#">C#</option>
+                        </select>
+                        <div class="principal_main_projeto_formulario_seletor">
+                            <div class="principal_main_projeto_formulario_seletor_cor"></div>
+                        </div>
+                    </div>
+
+
+
+                    <input class="principal_main_projeto_formulario_salvar" type="submit" value="Salvar projeto">
+                </form>
+                    
             </section>   
         </main>
         <footer>

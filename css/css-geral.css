@@ -88,3 +88,11 @@ a:visited{
     margin-left: 1rem;
 }
 
+.geral_container_botao_avatar{
+    display: flex;
+}
+.geral_container_botao_avatar_foto{
+    width: 32px;
+    height: 32px;
+}
+
